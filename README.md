@@ -2,4 +2,4 @@
 The true peak of degeneracy. Or not.
 
 
-![image](https://github.com/user-attachments/assets/9c0b19ca-fc69-4c87-b167-addd49dbe1e7)
+<img src="https://github.com/user-attachments/assets/9c0b19ca-fc69-4c87-b167-addd49dbe1e7" width="416">
