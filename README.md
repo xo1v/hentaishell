@@ -5,6 +5,9 @@ The true peak of degeneracy. Or not.
 </p>
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is in this repository-</p>
 
-hentaishell is based on Z-Shell (zsh):
+# Information
+hentaishell is basically just zsh, except.. filled with hentai? \
+
+hentaishell is based on Z Shell (zsh):
 git://git.code.sf.net/p/zsh/code \
 Mirror: https://github.com/zsh-users/zsh
