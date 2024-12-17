@@ -123,5 +123,9 @@ trap percmdexec DEBUG
 trap postcmdexec EXIT" >> ~/.zshrc
 echo >> ~/.zshrc
 
+echo
+printf "\e[95mAdding hsh to /etc/shells\e[0m" && echo
+echo /opt/hentaishell/bin/hsh | sudo tee -a /etc/shells
+
 source ~/.zshrc
 /opt/hentaishell/bin/hshsam
