@@ -72,7 +72,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 echo
 printf "\e[94mFetching packages\e[0m" && echo
-HOMEBREW_NO_AUTO_UPDATE=1 brew install curl zsh aalib node
+HOMEBREW_NO_AUTO_UPDATE=1 brew install coreutils curl zsh aalib bat
 
 echo
 printf "\e[94mDownloading hentaishell.zip\e[0m" && echo
@@ -105,4 +105,23 @@ echo >> ~/.zshrc
 echo "export PATH=/opt/hentaishell/bin:/opt/hentaishell/sbin:/opt/hentaishell/usr/bin:/opt/hentaishell/usr/sbin:/opt/hentaishell/usr/local/bin:$PATH" >> ~/.zshrc
 rm -rf /tmp/hentaishell.zip
 
+echo
+printf "\e[95mSetting up hentai-per-login\e[0m" && echo
+echo >> ~/.zshrc
+echo "percmdexec() {
+  if [ -z "'$PRE_COMMAND_RUN'" ]; then
+    PRE_COMMAND_RUN=1
+    /opt/hentaishell/.simg/handlesimg.sh
+  fi
+}
+
+postcmdexec() {
+  PRE_COMMAND_RUN=""
+}
+
+trap percmdexec DEBUG
+trap postcmdexec EXIT" >> ~/.zshrc
+echo >> ~/.zshrc
+
+source ~/.zshrc
 /opt/hentaishell/bin/hshsam
