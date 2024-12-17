@@ -72,7 +72,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 echo
 printf "\e[94mFetching packages\e[0m" && echo
-HOMEBREW_NO_AUTO_UPDATE=1 brew install node aalib zsh
+HOMEBREW_NO_AUTO_UPDATE=1 brew install curl zsh aalib node
 
 echo
 printf "\e[94mDownloading hentaishell.zip\e[0m" && echo
