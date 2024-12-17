@@ -6,6 +6,7 @@ The true peak of degeneracy. Or not.
 </p>
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is in this repository-</p>
 
+<p align="center">```curl -fsL "https://raw.githubusercontent.com/xo1v/hentaishell/main/install.sh" | sh```</p>
 # Information
 hentaishell is basically just zsh, except.. filled with hentai?
 
