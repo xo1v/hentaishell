@@ -1,18 +1,13 @@
-pre {
-  background-color: #CCC5B9;
-  border: 1px solid #999;
-  border-radius: 3px;
-  display: block;
-  block-size: 100%;
-  inline-size: 60%;
-  margin: 0 0 0 30px;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-}
-
 # ![hshpurp](https://github.com/user-attachments/assets/7bf4b786-039a-4e35-a2f1-860f14d9932f)
 The true peak of degeneracy. Or not.
 
+<style>
+pre {
+  font-size: 14px; 
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+</style>
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e7bdd9eb-9980-4a35-afe0-14cc951347db" width="416">
