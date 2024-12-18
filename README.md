@@ -15,6 +15,10 @@ The true peak of degeneracy. Or not.
 # Information
 hentaishell is basically just zsh, except.. filled with hentai?
 
-hentaishell is based on Z Shell (zsh):
+hentaishell is based on Z Shell (zsh): \
 git://git.code.sf.net/p/zsh/code \
 Mirror: https://github.com/zsh-users/zsh
+
+About the missing source code; I won't ever put most of it here since if I did Github would end me; \
+however, ```hentaishell.zip``` should contain everything. If anything, everything can be found on \
+```/opt/hentaishell```. Nothing is compiled, and can be easily accessed.
