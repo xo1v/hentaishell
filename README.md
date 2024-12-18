@@ -6,7 +6,7 @@ The true peak of degeneracy. Or not.
 </p>
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is visible in this repository-</p>
 
-~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ \
 Install using the script below:
 <pre>
   <code>
