@@ -6,6 +6,8 @@ The true peak of degeneracy. Or not.
 </p>
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is visible in this repository-</p>
 
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+Install using the script below:
 <pre>
   <code>
 <p align="center">curl -fsL "https://raw.githubusercontent.com/xo1v/hentaishell/main/install.sh" | sh</p>
