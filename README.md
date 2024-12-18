@@ -22,7 +22,7 @@ hentaishell is based on Z Shell (zsh): \
 git://git.code.sf.net/p/zsh/code \
 Mirror: https://github.com/zsh-users/zsh
 
-About the missing source code; I won't ever put most of it here since if I did GitHub would end me; \
+About the source code; I won't ever put most of it here since if I did GitHub would end me; \
 however, ```hentaishell.zip``` should contain everything. If anything, everything can be found on \
 ```/opt/hentaishell``` and ```~/.config/hensh```. Nothing is compiled, and can be easily accessed.
 
