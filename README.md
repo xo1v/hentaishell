@@ -5,14 +5,15 @@
 </p>
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is visible in this repository-</p>
 
-# Installation
+# Installation (beta)
+!! * hentaishell IS IN BETA, AND IS THEREFORE INCOMPLETE AND BUGGY!
 <pre>
   <code>
 <p align="center">curl -fsL "https://raw.githubusercontent.com/xo1v/hentaishell/main/install.sh" | sh</p>
       </code>
 </pre>
 
-# Information
+# About
 hentaishell is basically just zsh, except.. filled with hentai?
 
 hentaishell is based on Z Shell (zsh): \
