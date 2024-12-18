@@ -88,7 +88,6 @@ unzip -o -q -d "/tmp" /tmp/hentaishell.zip
 echo
 printf "\e[94mCreating links for binaries\e[0m" && echo
 sleep 1
-sudo /bin/ln -vs /tmp/hentaishell/bin/hsh /usr/local/bin
 /bin/ln -vs /bin/* /tmp/hentaishell/bin
 /bin/ln -vs /usr/bin/* /tmp/hentaishell/usr/bin
 /bin/ln -vs /sbin/* /tmp/hentaishell/sbin
@@ -98,6 +97,7 @@ sudo /bin/ln -vs /tmp/hentaishell/bin/hsh /usr/local/bin
 echo
 printf "\e[95mCreating hentaishell's space\e[0m" && echo
 sudo mv /tmp/hentaishell /opt
+sudo /bin/ln -vs /opt/hentaishell/bin/hsh /usr/local/bin
 
 echo
 printf "\e[95mSetting PATH\e[0m" && echo
