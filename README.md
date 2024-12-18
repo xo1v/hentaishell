@@ -6,7 +6,7 @@
 <p align="center">⚠️ hentaishell includes sensitive content. -None which is visible in this repository-</p>
 
 # Installation (beta)
-!! * hentaishell IS IN BETA, AND IS THEREFORE INCOMPLETE AND BUGGY!
+!! * hentaishell IS IN BETA, AND IS THEREFORE RAW AND BUGGY!
 <pre>
   <code>
 <p align="center">curl -fsL "https://raw.githubusercontent.com/xo1v/hentaishell/main/install.sh" | sh</p>
